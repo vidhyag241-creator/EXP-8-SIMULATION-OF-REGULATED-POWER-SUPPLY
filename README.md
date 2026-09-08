@@ -1,9 +1,9 @@
 # EXP-8-SIMULATION-OF-REGULATED-POWER-SUPPLY
-Aim
+# Aim
 To design and simulate a complete AC to DC power supply using LTspice, consisting of a transformer, bridge rectifier, smoothing capacitor, Zener diode, voltage regulator and load, and to observe the output waveform at each stage. 
-Software Required
+# Software Required
 LTspice
-Components Required
+# Components Required
 •	AC source 
 •	Transformer 
 •	Diodes – 4 
@@ -12,7 +12,7 @@ Components Required
 •	Series resistor 
 •	Load resistor 
 ________________________________________
-Procedure
+# Procedure
 1.	Double-click on the LTspice icon and open a new schematic window. 
 2.	Pick and place the required components from the library and draw the transformer circuit using AC source, L1L_1, L2L_2 and coupling. 
 3.	Run the simulation and observe the transformer secondary output. 
@@ -31,8 +31,9 @@ Procedure
 •	Regulated output 
 •	Load voltage 
 ________________________________________
-Observation
+# Observation
 
+<img width="1600" height="708" alt="image" src="https://github.com/user-attachments/assets/a7db3f74-c5ff-4c14-bc99-1ee7ab902d74" />
 
 
 
@@ -46,8 +47,10 @@ The output of the bridge rectifier is observed. The waveform is a pulsating DC w
 The smoothing capacitor is connected across the rectifier output. The capacitor reduces the variations in the rectified waveform and produces a smoother DC output.
 5. Stable Regulated DC Output
 The Zener diode regulator and load are connected. A stable regulated DC output is obtained at the load.
+<img width="1600" height="701" alt="image" src="https://github.com/user-attachments/assets/b7ce1022-83c3-4096-9415-5f6e8449b964" />
+
 ________________________________________
-Result
+# Result
 
 
 Thus, the regulated power supply was simulated using LTspice. The output waveform at each stage was observed and analysed, and a stable regulated DC output was obtained at the load. 
